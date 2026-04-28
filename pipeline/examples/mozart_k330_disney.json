@@ -1,0 +1,39 @@
+{
+  "input": {
+    "pdf_path": "../모짜르트 피아노 소나타 no.10, K.330 (Henle).pdf",
+    "movement": 1,
+    "measure_range": [1, 16]
+  },
+  "arrangement": {
+    "ensemble": "violin duet",
+    "style": "Disney",
+    "tempo_text": "Allegretto",
+    "tempo_bpm": 104,
+    "key": "C major"
+  },
+  "quality": {
+    "passing_score": 85,
+    "max_iterations": 5,
+    "reviewers": [
+      {"name": "Dr. Hans Müller",   "specialty": "Harmony / Theory",
+       "criteria": ["harmonic progression (30)", "voice leading (25)", "preservation of original (25)", "formal coherence (20)"]},
+      {"name": "Prof. Sarah Chen",  "specialty": "Performance / Chamber Music",
+       "criteria": ["range (20)", "playability (30)", "ensemble balance (25)", "idiomatic writing (25)"]},
+      {"name": "Prof. Alan Whitman", "specialty": "Film / Disney Arrangement",
+       "criteria": ["style fidelity (35)", "melodic appeal (25)", "emotional arc (20)", "creative reimagining (20)"]}
+    ]
+  },
+  "output": {
+    "title": "A Disney Reverie on Mozart K.330",
+    "subtitle": "after Sonata No.10, Movement I",
+    "filename_prefix": "Mozart_K330_Disney_Violin_Duet",
+    "formats": ["pdf", "midi", "wav", "mp3"]
+  },
+  "paths": {
+    "audiveris_exe": "C:\\Program Files\\Audiveris\\Audiveris.exe",
+    "musescore_exe": "C:\\Program Files\\MuseScore 4\\bin\\MuseScore4.exe",
+    "tessdata_dir": null,
+    "ocr_languages": ["ita", "eng", "deu"],
+    "workspace": "../"
+  }
+}

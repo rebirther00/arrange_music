@@ -1,0 +1,39 @@
+# Third-party cloned repositories (large)
+audiveris/
+
+# Audiveris OMR intermediate outputs
+output/
+output_full/
+*.omr
+*.log
+
+# Large audio files (GitHub limits 100MB; MP3 is sufficient for sharing)
+*.wav
+
+# Original copyrighted PDF inputs (user-owned scores; do not redistribute)
+*.pdf
+!arrangement/final/*.pdf
+!**/arrangement/final/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# bkit internal state
+.bkit/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+mozart_p1.zip
+mozart_p1_extracted/
+
+# Tessdata (large, third-party)
+tessdata/

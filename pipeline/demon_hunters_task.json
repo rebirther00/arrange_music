@@ -1,0 +1,42 @@
+{
+  "input": {
+    "pdf_path": "../demon_hunters_original.pdf",
+    "movement": 1,
+    "measure_range": null
+  },
+  "arrangement": {
+    "ensemble": "Piano + Vn1 + Vn2 + Va + Vc + Cb + Cl + Fl + Drums (9 parts)",
+    "style": "faithful to original; tempo preserved; melody rotated across multiple instruments (NOT only Vn1)",
+    "tempo_text": null,
+    "tempo_bpm": null,
+    "key": null
+  },
+  "quality": {
+    "passing_score": 85,
+    "passing_criterion": "all",
+    "max_iterations": 5,
+    "reviewers": [
+      {"name": "Dr. Hans Müller",   "specialty": "Harmony / Theory",
+       "criteria": ["preservation of original harmony (35)", "voice leading (25)", "melody fidelity (25)", "formal coherence (15)"]},
+      {"name": "Prof. Sarah Chen",  "specialty": "Performance / Chamber + Mixed Ensemble",
+       "criteria": ["range adaptation per instrument (20)", "playability (25)", "9-part ensemble balance (30)", "idiomatic writing per instrument (25)"]},
+      {"name": "Prof. Alan Whitman", "specialty": "Faithful Transcription",
+       "criteria": ["original character preserved (35)", "no unnecessary alterations (25)", "instrument-appropriate distribution (40)"]},
+      {"name": "Prof. Min-Joon Park", "specialty": "K-pop / Popular Music Production",
+       "criteria": ["pop accessibility & hook (30)", "rhythmic energy & groove (25)", "cinematic/orchestral pop feel (25)", "melody distribution that serves the song (20)"]}
+    ]
+  },
+  "output": {
+    "title": "Demon Hunters — 9-Part Ensemble (faithful)",
+    "subtitle": "arr. for Piano, Strings, Winds, Drums",
+    "filename_prefix": "Demon_Hunters_Ensemble",
+    "formats": ["pdf", "midi", "wav", "mp3"]
+  },
+  "paths": {
+    "audiveris_exe": "C:\\Program Files\\Audiveris\\Audiveris.exe",
+    "musescore_exe": "C:\\Program Files\\MuseScore 4\\bin\\MuseScore4.exe",
+    "tessdata_dir": null,
+    "ocr_languages": ["ita", "eng", "deu"],
+    "workspace": "../demon_hunters_work"
+  }
+}

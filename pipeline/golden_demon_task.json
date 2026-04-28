@@ -1,0 +1,39 @@
+{
+  "input": {
+    "pdf_path": "../golden_demon.pdf",
+    "movement": 1,
+    "measure_range": null
+  },
+  "arrangement": {
+    "ensemble": "string quartet (Vn1, Vn2, Va, Vc)",
+    "style": "faithful to original (no harmonic alteration; range-adapted voicing only)",
+    "tempo_text": null,
+    "tempo_bpm": null,
+    "key": null
+  },
+  "quality": {
+    "passing_score": 85,
+    "max_iterations": 5,
+    "reviewers": [
+      {"name": "Dr. Hans Müller",   "specialty": "Harmony / Theory",
+       "criteria": ["preservation of original harmony (40)", "voice leading (25)", "fidelity to original melody (25)", "formal coherence (10)"]},
+      {"name": "Prof. Sarah Chen",  "specialty": "Performance / Chamber Music",
+       "criteria": ["range adaptation per instrument (25)", "playability (25)", "string-quartet balance (25)", "idiomatic writing (25)"]},
+      {"name": "Prof. Alan Whitman", "specialty": "Faithful Transcription",
+       "criteria": ["original character preserved (40)", "no unnecessary alterations (30)", "string ensemble appropriateness (30)"]}
+    ]
+  },
+  "output": {
+    "title": "Golden Demon — String Quartet",
+    "subtitle": "faithful arrangement",
+    "filename_prefix": "Golden_Demon_String_Quartet",
+    "formats": ["pdf", "midi", "wav", "mp3"]
+  },
+  "paths": {
+    "audiveris_exe": "C:\\Program Files\\Audiveris\\Audiveris.exe",
+    "musescore_exe": "C:\\Program Files\\MuseScore 4\\bin\\MuseScore4.exe",
+    "tessdata_dir": null,
+    "ocr_languages": ["ita", "eng", "deu"],
+    "workspace": "../golden_demon_work"
+  }
+}
