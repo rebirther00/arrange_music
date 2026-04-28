@@ -1,0 +1,30 @@
+{
+  "title": "Golden",
+  "subtitle": "from the Netflix film KPOP Demon Hunters",
+  "voicing": "SAB and Piano with Optional Instrumental Accompaniment",
+  "duration_text": "ca. 3:20",
+  "publisher": "Hal Leonard 01946654",
+  "writers": ["EJAE", "Mark Sonnenblick", "IDO", "24", "Teddy Park"],
+  "arranger": "Roger Emerson",
+  "korean_language_consultants": ["Jacklyn Bywater", "Hyunsuk Bywater"],
+  "copyright": "2025 Maisie Anthems, THEBLACKLABEL Inc., YG Entertainment",
+  "parts": [
+    {"id": "P1", "name": "Soprano",  "abbr": "S",     "clef": "G", "transpose": 0},
+    {"id": "P2", "name": "Alto",     "abbr": "A",     "clef": "G", "transpose": 0, "notes": "May appear as 'Solo' line for Alto/Tenor Solo passages"},
+    {"id": "P3", "name": "Baritone", "abbr": "B",     "clef": "F", "transpose": 0},
+    {"id": "P4", "name": "Piano",    "abbr": "Pno.",  "clef": "grand-staff"}
+  ],
+  "key_initial": {"fifths": 1, "mode": "major"},
+  "events": [
+    {"measure": 1,  "tempo_text": "Moderately",      "tempo_bpm_half": 90,   "time": "3/2",  "section": "Piano intro"},
+    {"measure": 8,  "tempo_text": "Upbeat Pop",      "tempo_bpm_dottedQuarter": 120, "time": "12/8", "metric_modulation": "(dotted-quarter)=(quarter)", "section": "Transition"},
+    {"measure": 9,  "section": "Verse 1",            "first_lyric": "I was a ghost, I was a-",     "solo_voice": "Alto or Tenor Solo"}
+  ],
+  "estimated_total_measures": null,
+  "chunks": [
+    {"id": "mm001-003", "page": 2, "system": 1, "active_parts": ["Piano"],                              "status": "pending"},
+    {"id": "mm004-006", "page": 2, "system": 2, "active_parts": ["Piano"],                              "status": "pending"},
+    {"id": "mm007-008", "page": 2, "system": 3, "active_parts": ["Soprano", "Alto", "Piano"],          "status": "pending", "note": "S+A appear as empty staves; transition bar at m8"},
+    {"id": "mm009-012", "page": 2, "system": 3, "active_parts": ["Soprano", "Alto", "Piano"],          "status": "pending", "note": "Verse 1 begins with Alto solo. m9 ref MXL exists."}
+  ]
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <defaults>
+    <scaling><millimeters>5</millimeters><tenths>40</tenths></scaling>
+    <page-layout>
+      <page-height>1200</page-height>
+      <page-width>2400</page-width>
+      <page-margins type="both">
+        <left-margin>80</left-margin><right-margin>80</right-margin>
+        <top-margin>120</top-margin><bottom-margin>120</bottom-margin>
+      </page-margins>
+    </page-layout>
+  </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Piano</part-name>
+      <part-abbreviation>Pno.</part-abbreviation>
+      <score-instrument id="P1-I1">
+        <instrument-name>Piano</instrument-name>
+      </score-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <!-- Measure 1 : C/G  ostinato pattern (right-hand fixed shape, bass = chord) -->
+    <measure number="1">
+      <attributes>
+        <divisions>2</divisions>
+        <key><fifths>1</fifths></key>
+        <time><beats>3</beats><beat-type>2</beat-type></time>
+        <staves>2</staves>
+        <clef number="1"><sign>G</sign><line>2</line></clef>
+        <clef number="2"><sign>F</sign><line>4</line></clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type><words font-weight="bold">Moderately</words></direction-type>
+        <direction-type><metronome><beat-unit>half</beat-unit><per-minute>90</per-minute></metronome></direction-type>
+        <sound tempo="180"/>
+      </direction>
+      <harmony print-frame="no">
+        <root><root-step>C</root-step></root>
+        <kind text="">major</kind>
+        <bass><bass-step>G</bass-step></bass>
+      </harmony>
+      <!-- Beam 1: 2 eighths UP (low) -->
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <!-- Beam 2: 4 eighths DOWN (high, descending) ; slur start at last note -->
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam><notations><slur type="start" number="1"/></notations></note>
+      <!-- Beam 3: 2 eighths UP (low, mirror of beam 1) ; slur stop at first note -->
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <!-- Beam 4: 4 eighths DOWN (high, descending) -->
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam></note>
+      <backup><duration>12</duration></backup>
+      <direction placement="below">
+        <direction-type><dynamics><mp/></dynamics></direction-type>
+        <staff>2</staff>
+      </direction>
+      <!-- voice 2 : top stack C3+E3 dotted-whole -->
+      <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>2</voice><type>whole</type><dot/><staff>2</staff></note>
+      <note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>12</duration><voice>2</voice><type>whole</type><dot/><staff>2</staff></note>
+      <backup><duration>12</duration></backup>
+      <!-- voice 3 : low pedal G2 -->
+      <note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>3</voice><type>whole</type><dot/><staff>2</staff></note>
+    </measure>
+
+    <!-- Measure 2 : G/B (bass voicing reversed: top SINGLE D3, bottom STACK G2+B2) -->
+    <measure number="2">
+      <print new-system="no"/>
+      <harmony print-frame="no">
+        <root><root-step>G</root-step></root>
+        <kind text="">major</kind>
+        <bass><bass-step>B</bass-step></bass>
+      </harmony>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam></note>
+      <backup><duration>12</duration></backup>
+      <!-- voice 2 : top SINGLE D3 dotted-whole (m2 reversed) -->
+      <note><pitch><step>D</step><octave>3</octave></pitch><duration>12</duration><voice>2</voice><type>whole</type><dot/><staff>2</staff></note>
+      <backup><duration>12</duration></backup>
+      <!-- voice 3 : bottom STACK G2+B2 dotted-whole -->
+      <note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>3</voice><type>whole</type><dot/><staff>2</staff></note>
+      <note><chord/><pitch><step>B</step><octave>2</octave></pitch><duration>12</duration><voice>3</voice><type>whole</type><dot/><staff>2</staff></note>
+    </measure>
+
+    <!-- Measure 3 : D/A -->
+    <measure number="3">
+      <print new-system="no"/>
+      <harmony print-frame="no">
+        <root><root-step>D</root-step></root>
+        <kind text="">major</kind>
+        <bass><bass-step>A</bass-step></bass>
+      </harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">begin</beam><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>up</stem><staff>1</staff><beam number="1">end</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">continue</beam></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>1</duration><voice>1</voice><type>eighth</type><stem>down</stem><staff>1</staff><beam number="1">end</beam></note>
+      <backup><duration>12</duration></backup>
+      <!-- voice 2 : top stack D3+F#3 dotted-whole -->
+      <note><pitch><step>D</step><octave>3</octave></pitch><duration>12</duration><voice>2</voice><type>whole</type><dot/><staff>2</staff></note>
+      <note><chord/><pitch><step>F</step><alter>1</alter><octave>3</octave></pitch><duration>12</duration><voice>2</voice><type>whole</type><dot/><staff>2</staff></note>
+      <backup><duration>12</duration></backup>
+      <!-- voice 3 : low pedal A2 -->
+      <note><pitch><step>A</step><octave>2</octave></pitch><duration>12</duration><voice>3</voice><type>whole</type><dot/><staff>2</staff></note>
+      <barline location="right"><bar-style>regular</bar-style></barline>
+    </measure>
+  </part>
+</score-partwise>

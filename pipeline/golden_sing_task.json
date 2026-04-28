@@ -1,0 +1,38 @@
+{
+  "input": {
+    "pdf_path": "../golden_sing_note.pdf",
+    "movement": 1,
+    "measure_range": null
+  },
+  "arrangement": {
+    "ensemble": "TBD (will configure after PDF inspection)",
+    "style": "TBD",
+    "tempo_text": null,
+    "tempo_bpm": null,
+    "key": null
+  },
+  "quality": {
+    "passing_score": 85,
+    "passing_criterion": "all",
+    "max_iterations": 5,
+    "reviewers": [
+      {"name": "Dr. Hans Müller",   "specialty": "Harmony / Theory", "criteria": []},
+      {"name": "Prof. Sarah Chen",  "specialty": "Performance",      "criteria": []},
+      {"name": "Prof. Alan Whitman", "specialty": "Faithful Transcription", "criteria": []},
+      {"name": "Prof. Min-Joon Park", "specialty": "K-pop / Pop",    "criteria": []}
+    ]
+  },
+  "output": {
+    "title": "Golden Sing Note — Arrangement",
+    "subtitle": "TBD",
+    "filename_prefix": "Golden_Sing_Note_Arr",
+    "formats": ["pdf", "midi", "wav", "mp3"]
+  },
+  "paths": {
+    "audiveris_exe": "C:\\Program Files\\Audiveris\\Audiveris.exe",
+    "musescore_exe": "C:\\Program Files\\MuseScore 4\\bin\\MuseScore4.exe",
+    "tessdata_dir": null,
+    "ocr_languages": ["ita", "eng", "deu"],
+    "workspace": "../golden_sing_work"
+  }
+}
